@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MENU</title>
+    <style>
+        *{
+            margin:20px;
+            padding:5px;
+            box-sizing:border-box;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size:16px;
+            line-height:25px;
+            color: dimgray;
+        }
+
+        .main{ 
+           border:1px solid pink ;
+           border-radius:20px;
+           background-color:lightskyblue;
+        }
+
+        .bölüm {
+            text-align:center;
+            margin-bottom:60px;
+        }
+        h1{
+            text-transform:capitalize ;
+            position:relative;
+            color:indianred;
+            font-size:40px;
+            font-family: Britannic;
+            display:inline-block ;
+            padding-bottom:15px;
+            margin-bottom:20px;
+        }
+
+        
+        p1{
+            text-align:center;
+            color:white;
+            font-size:25px;
+            
+        }
+        p2{
+            text-align:left ;
+            color:black;
+            font-size:15px;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        .menü {
+            display: flex;
+            justify-content:space-between;
+            flex-wrap: revert ;
+        }
+        
+        .tek img{
+            max-width:200px;
+            height:150px;
+            border-radius:40%;
+            border:1px hidden gray ;
+            padding:3px;
+            margin-right:20px;
+            transition:1s;
+            
+        }
+
+        .tek:hover img{
+            transform:rotateY(360deg);
+        }
+
+        .sütun h1{
+            width:30%;
+        }
+
+        h2{
+            text-transform:capitalize;
+            font-size:25px;
+            font-weight:500;
+            margin-bottom:20px;
+            position:relative;
+            padding-bottom:12px;
+
+        }
+
+        h2:before{
+            content:'';
+            position:absolute;
+            width:40px;
+            height:2px;
+            background-color:brown ;
+        }
+
+        .tek{
+            display:flex;
+            align-items:center;
+            margin-right:20px;  
+        }
+
+        .içerik h2{
+            text-transform:capitalize;
+            font-size:22px;
+            font-weight:400;
+            padding-bottom:5px;
+            margin-bottom:10px;
+            border-bottom:1px  orangered;
+
+        }
+
+        .içerik h2 span{
+            color:tomato;
+            float:right;
+            font-weight:500;
+            font-style:italic;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="bölüm">
+            <h1>MENÜ</h1><br />
+            <p1>AFİYET OLSUN</p1>
+        </div>
+    </div>
+       
+    <div class="menü">
+        <div class="sütun">
+            <h1>FAST-FOOD</h1>
+            <div class="tek">
+                <img src="pizza-gf822b5014_1280.jpg"  />
+                <div class="içerik">
+                    <h2> PİZZA <span>80 TL</span></h2>
+                    <p2>Domates Sos,Mozzaralla,Yeşil Biber,Taze Mantar,Domater,Siyah Zeytin</p2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <div class="tek">
+                <img src="burger.jpg" alt="" />
+                <div class="içerik">
+                    <h2> HAMBURGER <span>90 TL</span></h2>
+                    <p2>165 gr. hamburger köftesi,baker sos,cheddar peyniri,domates,turşu,yeşillik,patates kızartması</p2>
+                </div>
+            </div>
+
+            <div class="tek">
+                <img src="makarna.jpg" alt="" />
+                <div class="içerik">
+                    <h2> MAKARNA <span>75 TL</span></h2>
+                    <p2>Bolognese Sos,Jülyen Mantar,Toz Parmasen Peynir</p2>
+                </div>
+            </div>
+
+    <div class="menü">
+        <div class="sütun">
+            <h1>SOĞUK İÇECEKLER</h1>
+            <div class="tek">
+                <img src="caramel-g813371c20_1280.jpg" alt="" />
+                <div class="içerik">
+                    <h2> İCE KARAMEL <span>56 TL</span></h2>
+                    <p2>Karamel,Krem Şanti,Kurabiye Parçacıkları,Dondurma</p2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+            <div class="tek">
+                <img src="ice cilekli.png" alt="" />
+                <div class="içerik">
+                    <h2> ÇİLEK FROZEN <span>52 TL</span></h2>
+                    <p2>Çilek,Krem Şanti,Böğürtlen Sos,Dondurma,Nane Yaprağı</p2>
+                </div>
+            </div>
+
+
+            <div class="tek">
+                <img src="limonata.jpg" alt="" />
+                <div class="içerik">
+                    <h2> LİMONATA <span> 45 TL</span></h2>
+                    <p2>Limon,Nane</p2>
+                </div>
+            </div>
+    
+
+    <div class="menü">
+        <div class="sütun">
+            <h1>SICAK İÇECEKLER</h1>
+            <div class="tek">
+                <img src="kale-kafe-sicak-çay.jpg" alt="" />
+                <div class="içerik">
+                    <h2>ÇAY <span>17 TL</span></h2>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+            <div class="tek">
+                <img src="55375kahve.jpg"  alt="" />
+                <div class="içerik">
+                    <h2> HOT MOCHA <span> 42TL</span></h2>
+                </div>
+            </div>
+
+   
+            <div class="tek">
+                <img src="turk-kahvesi-.jpg" alt="" />
+                <div class="içerik">
+                    <h2> TÜRK KAHVESİ <span> 28 TL</span></h2>
+                </div>
+            </div>
+    
+
+
+
+</body>
+</html>
